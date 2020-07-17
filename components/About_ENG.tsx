@@ -10,10 +10,10 @@ const About_ENG = () => (
 </div>
     <div className={styles.About_Image_Wrap}>
 <div className={styles.About_Image}>
-  <img src={'/img/magritte.jpg'} alt="Gadget Hackwrench"/>
+  <img src={'/img/1.jpg'} alt="1"/>
     </div>
 </div>
-<div className={styles.About_Image_Author}><p>By&nbsp;</p><a href="https://www.deviantart.com/mysticalpha/art/Gadget-Hackwrench-659345508" target="blank">Mysticalpha</a></div>
+<div className={styles.About_Image_Author}><p>By knight of the brush</p></div>
 <div className={styles.About_Image_Author}><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
 
 </div>

@@ -15,7 +15,7 @@ abo: 'Magritte',
     readMore: 'Read more on Wikipedia...'
   },
   fr: {
-abo: 'МАГРИТ',
+abo: 'Gadget',
     about: 'Magr',
     painting: 'La peinture',
     artist: "L'Artiste",

@@ -15,7 +15,7 @@ const ENG = React.useCallback(
     [router]
   )
 
-const RUS =  React.useCallback(
+const FRA =  React.useCallback(
 () => {
       const regex = new RegExp(`^/(${locales.join('|')})`)
       router.push(router.pathname, router.asPath.replace(regex, `/fr`))
@@ -27,8 +27,8 @@ const RUS =  React.useCallback(
   return (
 <div>
   <div>
-<a className={classes.L} onClick={ENG} >EN</a>
-<a className={classes.L} onClick={RUS} >RUS</a>   
+<a className={classes.L} onClick={ENG} >ENG</a>
+<a className={classes.L} onClick={FRA} >FRA</a>   
 </div>
 
 

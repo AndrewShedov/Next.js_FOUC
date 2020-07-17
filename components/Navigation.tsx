@@ -3,14 +3,14 @@ import Link from 'next/link'
 
 import useTranslation from '../hooks/useTranslation'
 import LocaleSwitcher from './LocaleSwitcher'
-import style from './Menu.module.scss'
+import styles from './Menu.module.scss'
 
 
 
 const Navigation = () => {
   const { locale, t } = useTranslation()
   return (
-<div className={style.menu} >
+<div className={styles.menu} >
     <ul className="root">
       <li>
         <LocaleSwitcher />

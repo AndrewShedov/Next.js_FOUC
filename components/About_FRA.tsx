@@ -4,7 +4,7 @@ import React from 'react'
 const About_FRA = () => (
   <div className="About_Wrap">
 <div className="About_Text_Wrap">
-<div className="classes.About_Text">
+<div className="About_Text">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 </div>

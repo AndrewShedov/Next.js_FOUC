@@ -11,17 +11,17 @@ abo: 'Magritte',
     artist: 'The Artist',
     notAPipe: 'About me',
   bg:<About_ENG></About_ENG>,
-    bio: `René François Ghislain Magritte (21 November 1898 – 15 August 1967) was a Belgian Surrealist artist. He became well known for creating a number of witty and thought-provoking images. Often depicting ordinary objects in an unusual context, his work is known for challenging observers' preconditioned perceptions of reality. His imagery has influenced pop art, minimalist art and conceptual art.`,
+    bio: `is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
     readMore: 'Read more onHHHHHHH Wikipedia...'
   },
   fr: {
 abo: 'МАГРИТ',
-    about: 'Sur René Magritte',
+    about: 'Magr',
     painting: 'La peinture',
     artist: "L'Artiste",
     notAPipe: "О себе",
 bg:<About_RUS></About_RUS>,
-    bio: `René Magritte est un peintre surréaliste belge, né le 21 novembre 1898 à Lessines1 dans le Hainaut (Belgique) et mort à Schaerbeek le 15 août 1967.`,
+    bio: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't. `,
     readMore: 'Lire plus sur Wikipedia...'
   },
   pl: {

@@ -1,8 +1,18 @@
 // import App from 'next/app'
 import './index.scss';
+import Head from 'next/head'
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+  return( <html>
+<body>
+    <Head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+ </Head>
+
+ <Component {...pageProps} />
+</body>
+</html>
+  )}
 
 // Only uncomment this method if you have blocking data requirements for
 // every single page in your application. This disables the ability to

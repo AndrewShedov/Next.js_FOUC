@@ -14,8 +14,6 @@ const About_RUS = () => (
    </div>
 </div>
 <div className="About_Image_Author"><p>By&nbsp;</p><a href="https://www.deviantart.com/mysticalpha/art/Gadget-Hackwrench-659345508" target="blank">Mysticalpha</a></div>
-</div>
-  );
 <style jsx>{`
 @media screen and (min-width:0px) and (max-width: 900px) {
 .About_Wrap{
@@ -116,6 +114,10 @@ cursor: default;
     transition: 0.5s;
   }}
       `}</style>
+</div>
+
+  );
+
 
 export default About_RUS
 

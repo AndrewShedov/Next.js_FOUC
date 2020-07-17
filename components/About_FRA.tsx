@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const About_RUS = () => (
+const About_FRA = () => (
   <div className="About_Wrap">
 <div className="About_Text_Wrap">
 <div className="classes.About_Text">
@@ -14,6 +14,8 @@ const About_RUS = () => (
    </div>
 </div>
 <div className="About_Image_Author"><p>By&nbsp;</p><a href="https://www.deviantart.com/mysticalpha/art/Gadget-Hackwrench-659345508" target="blank">Mysticalpha</a></div>
+
+<div className="About_Image_Author"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
 <style jsx>{`
 @media screen and (min-width:0px) and (max-width: 900px) {
 .About_Wrap{
@@ -119,5 +121,5 @@ cursor: default;
   );
 
 
-export default About_RUS
+export default About_FRA
 

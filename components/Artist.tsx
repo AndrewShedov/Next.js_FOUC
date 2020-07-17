@@ -7,7 +7,7 @@ const Artist: React.FC = () => {
     <div className={classes.bio}>
       <h1>gggggggg</h1>
      <p>{t('bio')}</p>
-      <a href={`http://${locale}.wikipedia.org/wiki/Chip_%27n_Dale:_Rescue_Rangers`}>{t('readMore')}</a>
+      <a href={`http://${locale}.wikipedia.org`}>{t('readMore')}</a>
     </div>
   )
 }

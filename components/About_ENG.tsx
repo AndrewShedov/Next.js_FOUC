@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './About_ENG.module.scss'
+import styles from './[About_ENG].module.scss'
 
 const About_ENG = () => (
   <div className={styles.About_Wrap}>

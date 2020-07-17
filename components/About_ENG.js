@@ -5,7 +5,7 @@ const About_ENG = () => (
   <div className={classes.About_Wrap}>
 <div className={classes.About_Text_Wrap}>
 <div className={classes.About_Text}>
-<p>Hi, I am developing websites, this is responsive websites for different screens of computers and mobile devices, also doing websites for the WordPres platform and other CMS. I do for the site - basic Search Engine Optimisation (SEO). </p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 </div>
     <div className={classes.About_Image_Wrap}>

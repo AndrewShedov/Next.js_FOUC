@@ -1,26 +1,26 @@
 import React from 'react'
 import About_ENG from '../components/About_ENG'
-import About_RUS from '../components/About_RUS'
+import About_FRA from '../components/About_FRA'
 import { Strings } from './types'
 
 const strings: Strings = {
 en: {
 abo: 'Magritte',
     about: 'About René Magritte',
-    painting: 'RENE !',
+    painting: 'RENE',
     artist: 'The Artist',
     notAPipe: 'About me',
   bg:<About_ENG></About_ENG>,
     bio: `is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum`,
-    readMore: 'Read more onHHHHHHH Wikipedia...'
+    readMore: 'Read more on Wikipedia...'
   },
   fr: {
 abo: 'МАГРИТ',
     about: 'Magr',
     painting: 'La peinture',
     artist: "L'Artiste",
-    notAPipe: "О себе",
-bg:<About_RUS></About_RUS>,
+    notAPipe: "À propos de moi",
+bg:<About_FRA></About_FRA>,
     bio: `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't. `,
     readMore: 'Lire plus sur Wikipedia...'
   },

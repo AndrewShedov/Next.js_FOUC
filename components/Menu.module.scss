@@ -1,0 +1,92 @@
+
+
+.menu{
+display: flex;
+justify-content: center;
+align-items: center;
+position: sticky;
+
+top: -2px;
+height: 45px;
+z-index: 9998;
+background: rgb(255, 255, 255);
+margin-top:  20px;
+}
+
+
+ .menu li {
+    list-style-type: none; /* Убираем маркеры */
+   position: relative;
+left: 11px;
+    margin-left: 19px; 
+   
+   }
+
+
+@media screen and (min-width:340px) and (max-width: 375px) {
+ .menu li {
+    list-style-type: none; /* Убираем маркеры */
+   position: relative;
+left: 11px;
+    margin-left: 12px; 
+   
+   }
+
+ .menu li a{
+color: rgba(110, 102, 102, 0.747);
+    text-decoration: none !important;
+transition: all 500ms ease;
+Font-size: 17.5px !important;
+   }
+
+
+
+}
+
+@media screen and (min-width:0px) and (max-width: 340px) {
+ .menu li {
+    list-style-type: none; /* Убираем маркеры */
+   position: relative;
+left: 11px;
+    margin-left: 10px; 
+   
+   }
+
+ .menu li a{
+color: rgba(110, 102, 102, 0.747);
+    text-decoration: none !important;
+transition: all 500ms ease;
+Font-size: 15px !important;
+   }
+
+
+
+}
+
+
+  .menu ul {
+
+
+display: flex;
+flex-wrap: wrap;
+  justify-content: center;
+   }
+
+  .menu li a{
+color: rgba(110, 102, 102, 0.747);
+    text-decoration: none !important;
+transition: all 500ms ease;
+Font-size: 18px;
+   }
+
+.menu li a:hover{
+color: #161515b9;
+  transition: all 500ms ease;
+
+}
+
+.menu li a:active{
+color: #161515;
+  transition: all 500ms ease;
+
+}
